@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ds Cell</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ds Cell</h1>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#celulares">Celulares</a></li>
+            <li><a href="#acessorios">Acessórios</a></li>
+            <li><a href="#capinhas">Capinhas</a></li>
+        </ul>
+    </nav>
+
+    <section class="search-bar">
+        <input type="text" id="search-input" placeholder="Pesquisar produtos...">
+        <button id="search-button">Buscar</button>
+    </section>
+
+    <h2> Nossos Produtos </h2>
+    <main>
+        <section class="product-listing">
+            <div class="product-card">
+                <h3>Iphone 11</h3>
+                <img src="imagens/iphone 11.jpeg" alt="Iphone 11">
+                <p>Iphone 11 com 64gb disponível em todas as cores.</p>
+                <p class="price">R$ 1.700,00</p>
+                <button class="add-to-cart" data-product-id="1" data-product-name="Iphone 11" data-product-price="1700.00">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <h3>Iphone 16</h3>
+                <img src="imagens/iphone 16.jpeg" alt="Iphone 16">
+                <p>Iphone 16 com 512gb disponível em todas as cores.</p>
+                <p class="price">R$ 4.850,00</p>
+                <button class="add-to-cart" data-product-id="2" data-product-name="Iphone 16" data-product-price="4850.00">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <h3>Samsung A55</h3>
+                <img src="imagens/a55.jpeg" alt="Samsung A55">
+                <p>Samsung A55 com 256gb disponível em todas as cores.</p>
+                <p class="price">R$ 2.100,00</p>
+                <button class="add-to-cart" data-product-id="3" data-product-name="Samsung A55" data-product-price="2100.00">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <h3>Samsung S25</h3>
+                <img src="imagens/S25.jpeg" alt="Samsung S25">
+                <p>Samsung S25 com 512gb disponível em todas as cores.</p>
+                <p class="price">R$ 6.090,00</p>
+                <button class="add-to-cart" data-product-id="4" data-product-name="Samsung S25" data-product-price="6090.00">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <h3>Motorola G85</h3>
+                <img src="imagens/G85.jpg" alt="Motorola G85">
+                <p>Motorola G85 256gb disponível em todas as cores.</p>
+                <p class="price">R$ 1.990,00</p>
+                <button class="add-to-cart" data-product-id="5" data-product-name="Motorola G85" data-product-price="1990.00">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <h3>Motorola G15</h3>
+                <img src="imagens/G15.png" alt="Motorola G15">
+                <p>Motorola G15 128gb disponível em todas as cores.</p>
+                <p class="price">R$ 838,00</p>
+                <button class="add-to-cart" data-product-id="6" data-product-name="Motorola G15" data-product-price="838.00">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de Compras</h2>
+            <ul id="cart-items">
+            </ul>
+            <p class="cart-total">Total: <span id="total-price">R$ 0,00</span></p>
+            <button id="checkout-button">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ds Cell. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
