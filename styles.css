@@ -1,31 +1,29 @@
-/* Geral */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Ice White */
+    background-color: #f0f8ff;
     color: #333;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: #007bff; /* Blue */
+    color: #007bff;
     text-align: center;
     margin-top: 20px;
 }
 
 /* Header */
 h1 {
-    background-color: #007bff; /* Blue */
-    color: #ffffff; /* White */
+    background-color: #007bff;
+    color: #ffffff; 
     padding: 20px 0;
     margin-bottom: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Main Navigation (New) */
 .main-nav {
-    background-color: #0056b3; /* Darker Blue for nav background */
+    background-color: #0056b3;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -37,7 +35,7 @@ h1 {
     margin: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    flex-wrap: wrap;
 }
 
 .main-nav li {
@@ -45,7 +43,7 @@ h1 {
 }
 
 .main-nav a {
-    color: #ffffff; /* White text */
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
@@ -54,22 +52,21 @@ h1 {
 }
 
 .main-nav a:hover {
-    color: #cce0ff; /* Lighter blue on hover */
-    border-bottom: 2px solid #cce0ff; /* Underline effect on hover */
+    color: #cce0ff;
+    border-bottom: 2px solid #cce0ff;
 }
 
-/* Search Bar */
 .search-bar {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #e6f2ff; /* Lighter Blue */
+    background-color: #e6f2ff;
     border-bottom: 1px solid #cce0ff;
 }
 
 #search-input {
     padding: 10px 15px;
-    border: 1px solid #007bff; /* Blue */
+    border: 1px solid #007bff;
     border-radius: 25px;
     width: 60%;
     max-width: 400px;
@@ -79,12 +76,12 @@ h1 {
 }
 
 #search-input:focus {
-    border-color: #0056b3; /* Darker Blue */
+    border-color: #0056b3;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
 }
 
 #search-button {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -96,10 +93,9 @@ h1 {
 }
 
 #search-button:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #0056b3;
 }
 
-/* Main Content */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -108,19 +104,18 @@ main {
     gap: 20px;
 }
 
-/* Product Listing */
 .product-listing {
     flex: 3;
     min-width: 300px;
-    background-color: #ffffff; /* White */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center cards horizontally */
-    gap: 20px; /* Space between cards */
+    justify-content: center;
+    gap: 20px;
 }
 
 .product-card {
@@ -132,10 +127,10 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
 
-    flex: 1 1 calc(33% - 40px); /* Approx. 3 cards per row, accounting for gap */
-    max-width: calc(33% - 40px); /* Ensures max 3 per row on larger screens */
-    min-width: 280px; /* Minimum width for cards before wrapping */
-    box-sizing: border-box; /* Include padding/border in width calculation */
+    flex: 1 1 calc(33% - 40px);
+    max-width: calc(33% - 40px);
+    min-width: 280px;
+    box-sizing: border-box;
 }
 
 .product-card:hover {
@@ -145,15 +140,15 @@ main {
 
 .product-card img {
     max-width: 100%;
-    height: 200px; /* Fixed height for consistency */
-    object-fit: contain; /* Ensures the image fits without cropping */
+    height: 200px; 
+    object-fit: contain;
     border-radius: 4px;
     margin-bottom: 15px;
 }
 
 .product-card h3 {
     margin-top: 0;
-    color: #007bff; /* Blue */
+    color: #007bff;
 }
 
 .product-card p {
@@ -163,13 +158,13 @@ main {
 
 .product-card .price {
     font-size: 1.3rem;
-    color: #28a745; /* Green for price */
+    color: #28a745;
     font-weight: bold;
     margin: 15px 0;
 }
 
 .product-card .add-to-cart {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -180,25 +175,24 @@ main {
 }
 
 .product-card .add-to-cart:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #0056b3;
 }
 
-/* Cart */
 .cart {
     flex: 1;
     min-width: 280px;
-    background-color: #ffffff; /* White */
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     position: sticky;
-    top: 20px; /* Stays visible when scrolling */
-    align-self: flex-start; /* Aligns to the top */
+    top: 20px;
+    align-self: flex-start;
 }
 
 .cart h2 {
     margin-top: 0;
-    color: #007bff; /* Blue */
+    color: #007bff;
 }
 
 #cart-items {
@@ -222,7 +216,7 @@ main {
 }
 
 .remove-item {
-    background-color: #dc3545; /* Red */
+    background-color: #dc3545;
     color: white;
     border: none;
     padding: 5px 8px;
@@ -233,7 +227,7 @@ main {
 }
 
 .remove-item:hover {
-    background-color: #c82333; /* Darker Red */
+    background-color: #c82333;
 }
 
 .cart-total {
@@ -241,11 +235,11 @@ main {
     font-weight: bold;
     text-align: right;
     margin-top: 20px;
-    color: #007bff; /* Blue */
+    color: #007bff;
 }
 
 #checkout-button {
-    background-color: #28a745; /* Green */
+    background-color: #28a745;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -258,10 +252,9 @@ main {
 }
 
 #checkout-button:hover {
-    background-color: #218838; /* Darker Green */
+    background-color: #218838;
 }
 
-/* Shopping Cart Icon */
 .cart-icon-container {
     position: fixed;
     bottom: 30px;
@@ -270,7 +263,7 @@ main {
 }
 
 .cart-icon {
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
     color: white;
     width: 60px;
     height: 60px;
@@ -285,7 +278,7 @@ main {
 }
 
 .cart-icon:hover {
-    background-color: #0056b3; /* Darker Blue */
+    background-color: #0056b3;
     transform: scale(1.05);
 }
 
@@ -293,7 +286,7 @@ main {
     position: absolute;
     top: -5px;
     right: -5px;
-    background-color: #dc3545; /* Red for notification */
+    background-color: #dc3545;
     color: white;
     font-size: 0.8rem;
     padding: 3px 8px;
@@ -301,20 +294,18 @@ main {
     font-weight: bold;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #007bff; /* Blue */
+    background-color: #007bff;
     color: white;
     margin-top: 30px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .product-card {
-        flex: 1 1 calc(50% - 30px); /* Two cards per row on medium screens */
+        flex: 1 1 calc(50% - 30px);
         max-width: calc(50% - 30px);
     }
 }
@@ -328,17 +319,17 @@ footer {
     .product-listing {
         width: 100%;
         max-width: 500px;
-        flex-direction: column; /* Stack cards vertically on small screens */
+        flex-direction: column;
     }
 
     .product-card {
-        flex: 1 1 100%; /* Single card per row on small screens */
+        flex: 1 1 100%;
         max-width: 100%;
-        margin-bottom: 20px; /* Add margin between stacked cards */
+        margin-bottom: 20px;
     }
 
     .cart {
-        position: static; /* Remove sticky behavior on smaller screens */
+        position: static;
         margin-top: 20px;
         width: 100%;
         max-width: 500px;
@@ -360,11 +351,11 @@ footer {
     }
 
     .main-nav ul {
-        flex-direction: column; /* Stack navigation items vertically on small screens */
-        gap: 10px; /* Space between stacked nav items */
+        flex-direction: column;
+        gap: 10px;
     }
 
     .main-nav li {
-        margin: 0; /* Reset horizontal margin */
+        margin: 0;
     }
 }
