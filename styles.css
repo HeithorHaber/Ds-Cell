@@ -7,6 +7,14 @@ body {
     line-height: 1.6;
 }
 
+.logoo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1, h2, h3 {
     color: #007bff;
     text-align: center;
@@ -24,7 +32,7 @@ h1 {
 
 .main-nav {
     background-color: #0056b3;
-    padding: 10px 0;
+    padding: 10px ;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -60,8 +68,6 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #e6f2ff;
-    border-bottom: 1px solid #cce0ff;
 }
 
 #search-input {
@@ -295,12 +301,16 @@ main {
 }
 
 footer {
+    background-color: #0056b3;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    background-color: #007bff;
-    color: white;
-    margin-top: 30px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
 }
 
 @media (max-width: 1024px) {
