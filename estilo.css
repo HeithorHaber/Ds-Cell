@@ -1,14 +1,10 @@
-* {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    background-color: #f0f8ff;
     color: #333;
-    background-color: #f4f4f9;
+    line-height: 1.6;
 }
 
 .logoo {
@@ -27,7 +23,7 @@ body {
 
 .main-nav {
     background-color: #0056b3;
-    padding: 10px ;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -59,10 +55,9 @@ body {
     border-bottom: 2px solid #cce0ff;
 }
 
-/* Estilo do Cabeçalho */
 header {
-    background-color: #007bff; /* Azul vibrante */
-    color: #fff;
+    background-color: #007bff;
+    color: #e9ecef;
     padding: 40px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -77,13 +72,12 @@ header p {
     font-size: 1.2em;
 }
 
-/* Estilo da Seção Principal */
 main {
     padding: 40px 0;
 }
 
 .quem-somos-content {
-    background-color: #fff;
+    background-color: #e9ecef;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -138,7 +132,6 @@ main {
     color: #0056b3;
 }
 
-/* Estilo do Rodapé */
 footer {
     background-color: #0056b3;
     color: #fff;
@@ -150,14 +143,4 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9em;
-}
-
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    header p {
-        font-size: 1em;
-    }
 }

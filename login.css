@@ -57,7 +57,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 button {
     padding: 10px;
     font-size: 16px;
-    color:#1fff;
+    color:#ffff;
     background-color: #6c63ff;
     border: none;
     border-radius: 4px;
