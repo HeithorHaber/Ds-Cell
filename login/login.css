@@ -20,11 +20,11 @@ body{
 
 .logoo {
   position: absolute;
-  width: 150px;
+  width: 250px;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding-top: 60px
+  padding-top: 20px;
 }
 
 .container{
